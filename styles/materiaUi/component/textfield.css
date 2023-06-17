@@ -1,0 +1,18 @@
+/* .css-tgoykc-MuiInputBase-root-MuiOutlinedInput-root {
+  @apply rounded-lg text-xs;
+} */
+/* .css-ankvjg-MuiInputBase-root-MuiOutlinedInput-root {
+  @apply rounded-lg text-xs p-2;
+} */
+/* .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  @apply p-2;
+} */
+/* .MuiTextField-root {
+  @apply !text-xs;
+} */
+.MuiOutlinedInput-root {
+  @apply rounded-lg;
+}
+.MuiInputBase-input {
+  @apply rounded-lg text-sm p-2;
+}

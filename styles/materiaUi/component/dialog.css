@@ -1,0 +1,3 @@
+.MuiDialog-paper {
+  @apply shadow-md;
+}
