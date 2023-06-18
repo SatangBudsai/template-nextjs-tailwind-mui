@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <Layout className="p-5">
       <div className="uppercase">Template AroundTheCode</div>
-      <Button variant="contained" onClick={() => router.push('/pageDemo')}>Home</Button>
+      <Button variant="contained" onClick={() => router.push('/PageDemo')}>Home</Button>
     </Layout>
   )
 }
