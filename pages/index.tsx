@@ -1,4 +1,4 @@
-import Layout from "@/components/Layout";
+import Layout from "@/components/Layout2";
 import { Button } from "@mui/material";
 import { useRouter } from "next/router";
 

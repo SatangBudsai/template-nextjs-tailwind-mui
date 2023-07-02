@@ -20,10 +20,10 @@ type Props = {
     children: React.ReactNode
 }
 
-const index = (props: Props) => {
+const Nprogress = (props: Props) => {
     return (
         <div>{props.children}</div>
     )
 }
 
-export default index
+export default Nprogress

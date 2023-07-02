@@ -6,7 +6,7 @@ const queryClient = new QueryClient();
 //Config Tailwind and MaterialUI
 import { ThemeProvider } from "@mui/material/styles";
 import theme from "@/config/materialUI/theme";
-import Nprogress from '@/components/Nprogress';
+import Nprogress from '@/components/Nprogress2';
 
 import type { AppProps } from 'next/app'
 import InjectTailwind from '@/pages/InjectTailwind';
