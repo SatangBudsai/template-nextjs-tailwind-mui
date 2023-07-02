@@ -1,4 +1,4 @@
-import Layout from '@/components/Layout2'
+import Layout from '@/components/layout'
 import { Button } from '@mui/material'
 import { useRouter } from 'next/router'
 import React from 'react'

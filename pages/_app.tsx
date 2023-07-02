@@ -5,16 +5,16 @@ import { QueryClient, QueryClientProvider } from 'react-query';
 const queryClient = new QueryClient();
 //Config Tailwind and MaterialUI
 import { ThemeProvider } from "@mui/material/styles";
-import theme from "@/config/materialUI/theme";
-import Nprogress from '@/components/Nprogress2';
+import Nprogress from '@/components/nprogress';
 
 import type { AppProps } from 'next/app'
 import InjectTailwind from '@/pages/InjectTailwind';
+import CustomTheme from '@/theme/mui';
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <QueryClientProvider client={queryClient}>
-      <ThemeProvider theme={theme}>
+      <ThemeProvider theme={CustomTheme}>
         <InjectTailwind>
           <Head>
             <meta

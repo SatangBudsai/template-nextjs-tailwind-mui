@@ -5,7 +5,6 @@
 @tailwind utilities;
 
 @import url(customPreflight.css);
-@import url(materiaUi/index.css);
 @import url(nprogress.css);
 
 @layer base {
